@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 import styles from "./Header.module.css";
 
 export default function Header(){
@@ -10,8 +11,8 @@ export default function Header(){
                 <span className="font-bold"> (025) 3888 25 16</span>
             </div>
             <div>
-                <a href="/" >Sell on Swoo</a>
-                <a href="/" >Order Tracking</a>
+                <Link href="/" >Sell on Swoo</Link>
+                <Link href="/" >Order Tracking</Link>
                 <select>
                     <option value="usd">USD</option>
                 </select>
@@ -21,7 +22,7 @@ export default function Header(){
             </div>
         </div>
         <div className={styles.Mnavbar}>
-            <a href ="/" className={styles.logo}><img src="/logo.png" alt="Logo"/></a>
+            <Link href ="/" className={styles.logo}><Image src="/logo.png" alt="Logo"/></Link>
             <div className={styles.navSC}>
                 <select>
                     <option value="1">HOMES</option>
@@ -32,7 +33,7 @@ export default function Header(){
                 <select>
                     <option value="products">PRODUCTS</option>
                 </select>
-                <a href="/">CONTACT</a>
+                <Link href="/">CONTACT</Link>
             </div>
             <div className={styles.sidenav}>
             </div>
