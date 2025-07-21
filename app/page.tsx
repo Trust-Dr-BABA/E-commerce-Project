@@ -1,8 +1,9 @@
 import Image from "next/image";
+import styles from "./Home.module.css"
 
-function header(){
-  return
-}
+
 export default function Home() {
-  return 
+  return(
+    <div></div>
+  );
 }
