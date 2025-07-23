@@ -19,7 +19,7 @@ export default function Subscribe() {
                     <input type="email" placeholder="Enter your email address" className="w-[80%]"/>
                     <button className="text-[#1ABA1A] font-bold">SUBSCRIBE</button>
                 </div>
-                <p className="text-[13px] italic text-[#666666]">By subscribing, you're accepted the our <span className="underline text-black">Policy</span></p>
+                <p className="text-[13px] italic text-[#666666]">By subscribing, you&#39;re accepted the our <span className="underline text-black">Policy</span></p>
             </div>
         </div>
     );
