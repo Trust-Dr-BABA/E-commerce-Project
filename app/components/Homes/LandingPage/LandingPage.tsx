@@ -4,7 +4,7 @@ import HomeHeader from "./HomeHeader";
 
 export default function LandingPage() {
   return (
-    <div>
+    <div className="flex flex-col">
       <Header />
       <HomeHeader />
       <Footer />

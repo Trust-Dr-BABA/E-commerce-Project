@@ -4,7 +4,7 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 
 export default function TopBar() {
     return(
-    <div className="flex justify-between text-[14px] mt-[10px] mx-[30px]">
+        <div className="flex justify-between text-[14px] mt-[10px] mx-[30px]">
             <div className="space-x-2 flex justify-center">
                 <div className="pl-[10px]">
                     <FontAwesomeIcon icon={faPhoneVolume} className="w-[12.2px] h-[12px] mr-[5px]" />

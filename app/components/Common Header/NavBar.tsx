@@ -7,7 +7,7 @@ export default function NavBar() {
     return(
         <div className="flex justify-between items-center h-[50px] my-[20px] mx-[15px] p-[10px]">
             <Link href ="/">
-                <Image src="/logo.png" alt="Logo" width={161} height={50}/>
+                <Image src="/logo.png" alt="Logo" width="161" height="50"/>
             </Link>
             <div>
                 <select>
