@@ -18,14 +18,22 @@ export default function CustomSlider() {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
 
   return (
-    <div className="relative w-full overflow-hidden h-[300px] rounded-lg shadow-lg">
+    <div className="relative w-full overflow-hidden h-[300px] rounded-lg">
       <div className="flex h-full transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
 
         <div className="flex-shrink-0 bg-[url('/slider1.png')] bg-cover bg-center h-full w-full">
+          <div className="text-white pt-[40px] pl-[60px]">
+            <h2 className="text-[30px] font-medium w-[205px]">aPodOS <br />Work Wonders With Easy</h2>
+            <p className="w-[183px] text-[12px] pb-6 pt-3">Experience aPod 2023 with new technology from $769</p>
+            <Link href="/" className="bg-[#1ABA1A] text-white p-3 rounded-[10px]">DISCOVER NOW</Link>
+          </div>
         </div>
 
         <div className="flex-shrink-0 bg-[url('/slider2.png')] bg-cover bg-center h-full w-full">
-          <div>
+          <div className="pt-[40px] pl-[60px]">
+            <p className="w-[100px]">PC GAMING CASES</p>
+            <h2 className="text-[30px] font-light w-[190px] pb-8 pt-3">SALE UP TO <span className="font-bold">50% OFF</span></h2>
+            <Link href="/" className="bg-black text-white p-3 rounded-[10px]">BUY NOW</Link>
           </div>
         </div>
 
