@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faPlus, faStar } from '@fortawesome/free-solid-svg-icons'
 
-export default function LandingPage() {
+export default function Deals() {
     const [currentPic, setCurrentPic] = useState("/dealad1.png");
 
     return (
@@ -17,7 +17,7 @@ export default function LandingPage() {
                         <FontAwesomeIcon icon={faChevronRight} className="w-[13.2px] h-[13px]"/>
                     </Link>
                 </div>
-                <div className="pl-4 pt-4 flex">
+                <div className="p-4 flex bg-white rounded-[10px]">
                     <div className="pt-[35px] flex w-[50%]">
                         <div className="flex flex-col items-center w-[36px]">
                             <button onClick={() => setCurrentPic("/dealad1.png")}>
@@ -41,7 +41,7 @@ export default function LandingPage() {
                                 </div>
                             </button>
                         </div>
-                        <div>
+                        <div className="relative">
                             <div className="flex justify-between items-center pl-[35px]">
                                 <div className="text-white bg-[#1ABA1A] rounded-[10px] p-3">
                                     <p className="text-[12px]">SAVE</p>
@@ -62,8 +62,10 @@ export default function LandingPage() {
                             <p className="text-[#666666] text-[13px]">(12)</p>
                         </div>
                         <h4 className="text-[16px] font-bold">Xioma Redmi Note 11 Pro 256GB 2023, Black Smartphone</h4>
-                        <h3 className="text-[22px] text-[#F1352B] mt-[20px]">$569.00 </h3>
-                        <h3 className="text-[#666666] text-[16px] font-semibold line-through mb-[20px]">$759.00</h3>
+                        <div className="flex my-[20px] items-center gap-2">
+                            <h3 className="text-[22px] text-[#F1352B]">$569.00 </h3>
+                            <h3 className="text-[#666666] text-[16px] font-semibold line-through">$759.00</h3>
+                        </div>
                         <ul className="list-disc list-inside space-y-1 text-[12px] mb-[25px]">
                             <li>Intel LGA 1700 Socket: Supports 13th & 12th Gen Intel Core</li>
                             <li>DDR5 Compatible: 4*SMD DIMMs with XMP 3.0 Memory</li>
@@ -73,25 +75,25 @@ export default function LandingPage() {
                         <Link href="/" className="text-[#F1352B] text-[12px] p-3 rounded-[6px]">FREE GIFT</Link>
                         <div className="flex space-x-8 mt-[30px]">
                             <p className="w-[115px] text-[13px]">HURRY UP! PROMOTION WILL EXPIRES IN</p>
-                            <div>
+                            <div className="bg-[#EBEDF3] rounded-[10px] p-3 text-center">
                                 <p className="font-bold text-[20px]">-162</p>
                                 <p className="font-bold text-[14px] text-[#666666]">d</p>
                             </div>
-                            <div>
+                            <div className="bg-[#EBEDF3] rounded-[10px] p-3 text-center">
                                 <p className="font-bold text-[20px]">-9</p>
                                 <p className="font-bold text-[14px] text-[#666666]">h</p>
                             </div>
-                            <div>
+                            <div className="bg-[#EBEDF3] rounded-[10px] p-3 text-center">
                                 <p className="font-bold text-[20px]">-32</p>
                                 <p className="font-bold text-[14px] text-[#666666]">m</p>
                             </div>
-                            <div>
+                            <div className="bg-[#EBEDF3] rounded-[10px] p-3 text-center">
                                 <p className="font-bold text-[20px]">-34</p>
                                 <p className="font-bold text-[14px] text-[#666666]">s</p>
                             </div>
                         </div>
-                        <div className="mt-[25px]">
-                            <div className="h-[8px] rounded-[10px]">
+                        <div className="mt-[25px] pb-4">
+                            <div className="h-[8px] rounded-[10px] bg-[#E2E4EB] w-[400px]">
                                 <div className="bg-[#1ABA1A] h-[8px] w-[157px] rounded-[10px]"></div>
                             </div>
                             <p className="text-[13px]">Sold: <span className="font-bold">26/75</span></p>

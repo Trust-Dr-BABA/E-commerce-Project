@@ -5,6 +5,7 @@ import FeaturedTop from "./Featured&Top";
 import Deals from "./Deals";
 import Membership from "./MembershipAd";
 import BestSeller from "./BestSeller";
+import BrandNew from "./BrandNew";
 
 export default function LandingPage() {
   return (
@@ -15,6 +16,7 @@ export default function LandingPage() {
       <Deals />
       <Membership />
       <BestSeller />
+      <BrandNew />
       <Footer />
     </div>
   );
