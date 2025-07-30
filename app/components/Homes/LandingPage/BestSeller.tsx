@@ -40,6 +40,10 @@ export default function BestSeller() {
                 <FontAwesomeIcon icon={faCheck} className="bg-green-500 text-white w-[16spx] h-[16px] p-[2px] rounded-full" />
                 <span className="text-[12px]">In stock</span>
               </div>
+              <div className="py-2 flex items-center">
+                <Link href="/"><Image src="/bestseller-headphones1.png" alt="Best Seller Headphones" width={40} height={40} /></Link>
+                <Link href="/"><Image src="/bestseller-headphones2.jpg" alt="Best Seller Headphones" width={40} height={40} /></Link>
+              </div>
             </div>
           </div>
 
@@ -73,79 +77,79 @@ export default function BestSeller() {
           </div>
         
 
-        <div className="relative">
-          <div className="absolute top-3 left-3 bg-[#1ABA1A] text-white rounded-[10px] p-2 z-10">
-            <p className="text-[10px]">SAVE</p>
-            <h6 className="text-[14px] font-medium">$199.00</h6>
-          </div>
-          <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-          <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-          </div>
-          <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-case.png" alt="Best Seller Mini case" width={190} height={200}/></Link>
-          <div className="pl-8">
-            <div className="flex text-yellow-400 gap-1 pb-2">
-              {[...Array(5)].map((_, i) => (
-                <FontAwesomeIcon key={i} icon={faStar} className="text-[20px]" />
-              ))}
-              <p className="text-[#666666] text-[13px]">(8)</p>
+          <div className="relative">
+            <div className="absolute top-3 left-3 bg-[#1ABA1A] text-white rounded-[10px] p-2 z-10">
+              <p className="text-[10px]">SAVE</p>
+              <h6 className="text-[14px] font-medium">$59.00</h6>
             </div>
-            <h4 className="text-[14px] font-bold">uLosk Mini case 2.0, Xenon i10 / 32GB / SSD 512GB / VGA 8GB</h4>
-            <div className="flex my-[10px] items-center gap-2">
-              <h3 className="text-[18px] text-[#F1352B] font-semibold">$569.00 </h3>
-              <h3 className="text-[#666666] text-[14px] font-semibold line-through">$759.00</h3>
+            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
+              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
             </div>
-            <Link href="/" className="text-[#1ABA1A] text-[10px] p-3 rounded-[6px]">FREE SHIPPING</Link>
-            <div className="py-2 gap-2 flex items-center">
+            <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-case.png" alt="Best Seller Mini case" width={190} height={200}/></Link>
+            <div className="pl-8">
+              <div className="flex text-yellow-400 gap-1 pb-2">
+                {[...Array(5)].map((_, i) => (
+                  <FontAwesomeIcon key={i} icon={faStar} className="text-[20px]" />
+                ))}
+                <p className="text-[#666666] text-[13px]">(8)</p>
+              </div>
+              <h4 className="text-[14px] font-bold">uLosk Mini case 2.0, Xenon i10 / 32GB / SSD 512GB / VGA 8GB</h4>
+              <div className="flex my-[10px] items-center gap-2">
+                <h3 className="text-[18px] text-[#F1352B] font-semibold">$569.00 </h3>
+                <h3 className="text-[#666666] text-[14px] font-semibold line-through">$759.00</h3>
+              </div>
+              <Link href="/" className="text-[#1ABA1A] text-[10px] p-3 rounded-[6px]">FREE SHIPPING</Link>
+              <div className="py-2 gap-2 flex items-center">
                 <FontAwesomeIcon icon={faXmark} className="bg-red-500 text-white w-[16px] h-[16px] p-[2px] rounded-full" />
                 <span className="text-[12px]">Out of stock</span>
               </div>
+            </div>
           </div>
-        </div>
 
-        <div className="relative">
-          <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-            <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-          </div>
-          <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-watch.png" alt="Best Seller Watch" width={190} height={200}/></Link>
-          <div className="pl-8">
-            <div className="flex text-yellow-400 gap-1 pb-2">
-              {[...Array(5)].map((_, i) => (
-                <FontAwesomeIcon key={i} icon={faStar} className="text-[20px]" />
-              ))}
-              <p className="text-[#666666] text-[13px]">(12)</p>
+          <div className="relative">
+            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
+              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
             </div>
-            <h4 className="text-[14px] font-bold">Opplo Watch Series 8 GPS + Cellular Stainless Steel Case with Milanese Loop</h4>
-            <h3 className="text-[18px] font-semibold my-[10px]">$979.00 - $1,259.00</h3>
-            <p className="text-[10px] p-3">$2.98 SHIPPING</p>
-            <p className="text-[12px]">PRE - ORDER</p>
+            <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-watch.png" alt="Best Seller Watch" width={190} height={200}/></Link>
+            <div className="pl-8">
+              <div className="flex text-yellow-400 gap-1 pb-2">
+                {[...Array(5)].map((_, i) => (
+                  <FontAwesomeIcon key={i} icon={faStar} className="text-[20px]" />
+                ))}
+                <p className="text-[#666666] text-[13px]">(12)</p>
+              </div>
+              <h4 className="text-[14px] font-bold">Opplo Watch Series 8 GPS + Cellular Stainless Steel Case with Milanese Loop</h4>
+              <h3 className="text-[18px] font-semibold my-[10px]">$979.00 - $1,259.00</h3>
+              <p className="text-[10px] p-3">$2.98 SHIPPING</p>
+              <p className="text-[12px]">PRE - ORDER</p>
+            </div>
           </div>
-        </div>
 
-        <div className="relative">
-          <div className="absolute top-3 left-3 bg-[#1ABA1A] text-white rounded-[10px] p-2 z-10">
-            <p className="text-[10px]">SAVE</p>
-            <h6 className="text-[14px] font-medium">$199.00</h6>
-          </div>
-          <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-          <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-          </div>
-          <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-charger.png" alt="Best Seller Charger" width={190} height={200}/></Link>
-          <div className="pl-8">
-            <div className="flex text-yellow-400 gap-1 pb-2">
-              {[...Array(5)].map((_, i) => (
-                <FontAwesomeIcon key={i} icon={faStar} className="text-[20px]" />
-              ))}
-              <p className="text-[#666666] text-[13px]">(9)</p>
+          <div className="relative">
+            <div className="absolute top-3 left-3 bg-[#1ABA1A] text-white rounded-[10px] p-2 z-10">
+              <p className="text-[10px]">SAVE</p>
+              <h6 className="text-[14px] font-medium">$3.00</h6>
             </div>
-            <h4 className="text-[14px] font-bold">iSmart 24V Charger</h4>
-            <div className="flex my-[10px] items-center gap-2">
-              <h3 className="text-[18px] text-[#F1352B] font-semibold">$569.00 </h3>
-              <h3 className="text-[#666666] text-[14px] font-semibold line-through">$759.00</h3>
+            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
+              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
             </div>
-            <p className="text-[10px] p-3">$3.98 SHIPPING</p>
-            <p className="text-[12px]">CONTACT</p>
+            <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-charger.png" alt="Best Seller Charger" width={190} height={200}/></Link>
+            <div className="pl-8">
+              <div className="flex text-yellow-400 gap-1 pb-2">
+                {[...Array(5)].map((_, i) => (
+                  <FontAwesomeIcon key={i} icon={faStar} className="text-[20px]" />
+                ))}
+                <p className="text-[#666666] text-[13px]">(9)</p>
+              </div>
+              <h4 className="text-[14px] font-bold">iSmart 24V Charger</h4>
+              <div className="flex my-[10px] items-center gap-2">
+                <h3 className="text-[18px] text-[#F1352B] font-semibold">$569.00 </h3>
+                <h3 className="text-[#666666] text-[14px] font-semibold line-through">$759.00</h3>
+              </div>
+              <p className="text-[10px] p-3">$3.98 SHIPPING</p>
+              <p className="text-[12px]">CONTACT</p>
+            </div>
           </div>
-        </div>
 
         </div>
         <button className="text-black bg-[#EDEFF6] rounded-[6px] w-[40px] h-[80px]">▶</button>

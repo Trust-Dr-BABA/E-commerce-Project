@@ -6,6 +6,12 @@ import Deals from "./Deals";
 import Membership from "./MembershipAd";
 import BestSeller from "./BestSeller";
 import BrandNew from "./BrandNew";
+import TopCellphones from "./TopCellphones";
+import TopLaptops from "./TopLaptops";
+import Equipments from "./Equipments";
+import CashBack from "./CashbackAd";
+import RecentlyViewed from "./RecentlyViewed";
+import About from "./AboutSwoo";
 
 export default function LandingPage() {
   return (
@@ -17,6 +23,12 @@ export default function LandingPage() {
       <Membership />
       <BestSeller />
       <BrandNew />
+      <TopCellphones />
+      <TopLaptops />
+      <Equipments />
+      <CashBack />
+      <RecentlyViewed />
+      <About />
       <Footer />
     </div>
   );
