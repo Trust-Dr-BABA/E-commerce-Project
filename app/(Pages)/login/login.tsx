@@ -31,7 +31,7 @@ export default function Login() {
                 </div>
                 <Link href="/" className="text-[13px] text-[#999999] underline pt-1">Forget Password ?</Link>
                 <Link href="/" className="text-white bg-[#1ABA1A] rounded-[10px] py-3 px-10 text-[14px] w-[125px] mt-10 mb-4">LOGIN</Link>
-                <p className="text-[13px] text-[#999999]">NEW USER ? <Link href="/register" className="text-[#1ABA1A]">SIGN UP</Link></p>
+                <p className="text-[13px] text-[#999999]">NEW USER ? <Link href="/signup" className="text-[#1ABA1A]">SIGN UP</Link></p>
             </div>
         </div>
     );
