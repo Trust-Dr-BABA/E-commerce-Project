@@ -13,7 +13,7 @@ export default function CashBack() {
                 <p className="text-[24px] text-white pb-4">Download our app</p>
                 <p className="text-[12px] text-[#CCCCCC] pb-2">Enter your phone number and we&#39;ll send you a download link.</p>
                 <div className="w-[100%] h-[41px] bg-white flex justify-center items-center rounded-[10px]">
-                    <input type="email" placeholder="(+xx) xxx..." className="w-[80%]"/>
+                    <input type="text" placeholder="(+xx) xxx..." className="w-[80%] h-full focus:outline-none"/>
                     <button className="text-[#1ABA1A] font-bold">SEND LINK</button>
                 </div>
             </div>

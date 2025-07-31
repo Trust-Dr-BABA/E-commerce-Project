@@ -23,13 +23,13 @@ export default function NavBar() {
             </div>
             <div className="flex items-center gap-x-4">
                 <div className="flex gap-x-4">
-                    <Link href="/" className="w-[40px] h-[40px] flex justify-center items-center">
+                    <Link href="/" className="w-[40px] h-[40px] flex justify-center items-center bg-[#EBEEF6] rounded-full">
                         <FontAwesomeIcon icon={faSync} className="w-[18.2px] h-[18px]"/>
                     </Link>
-                    <Link href="/" className="w-[40px] h-[40px] flex justify-center items-center">
+                    <Link href="/" className="w-[40px] h-[40px] flex justify-center items-center bg-[#EBEEF6] rounded-full">
                         <FontAwesomeIcon icon={faHeart} className="w-[18.2px] h-[18px]"/>
                     </Link>
-                    <Link href="/profile" className="w-[40px] h-[40px] flex justify-center items-center">
+                    <Link href="/profile" className="w-[40px] h-[40px] flex justify-center items-center bg-[#EBEEF6] rounded-full">
                         <FontAwesomeIcon icon={faUser} className="w-[18.2px] h-[18px]"/>
                     </Link>
                 </div>
@@ -38,7 +38,7 @@ export default function NavBar() {
                     <Link href="/login" className="text-[14px] font-bold">LOG IN / REGISTER</Link>
                 </div>
                 <div>
-                    <Link href="/" className="w-[50px] h-[40px] flex justify-center items-center">
+                    <Link href="/" className="w-[40px] h-[40px] flex justify-center items-center bg-[#EBEEF6] rounded-full">
                         <FontAwesomeIcon icon={faShoppingBag} className="w-[18.2px] h-[18px] inline" />
                     </Link>
                 </div>

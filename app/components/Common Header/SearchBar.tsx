@@ -9,7 +9,7 @@ export default function SearchBar() {
                     <option value="category">All Categories</option>
                 </select>
                 <div className="flex items-center justify-center w-[100%] h-[100%]">
-                    <input type="search" id="site-search" name="q" placeholder="Search anything..." className="w-[350px]"/>
+                    <input type="text" id="site-search" name="q" placeholder="Search anything..." className="w-[350px] h-[100%] focus:outline-none"/>
                     <button type="submit">
                         <FontAwesomeIcon icon={faSearch} />
                     </button>
