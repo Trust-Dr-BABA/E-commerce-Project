@@ -4,10 +4,10 @@ import SearchBar from "./SearchBar";
 
 export default function Header(){
     return(
-        <div>
+        <header className="w-full">
             <TopBar />
             <NavBar />
             <SearchBar />       
-        </div>
+        </header>
     );
 }

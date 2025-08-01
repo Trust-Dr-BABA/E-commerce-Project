@@ -3,21 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function SearchBar() {
     return(
-        <div className="flex justify-around items-center bg-[#1ABA1A] rounded-[10px] h-[75px]">
-            <div className="bg-[#FFFFFF] rounded-[30px]  w-[516.66px] h-[45px] flex items-center">
-                <select className="pl-2">
+        <div className="flex  flex-wrap md:flex-nowrap justify-between items-center gap-4 bg-[#1ABA1A] rounded-[10px] px-4 py-4">
+            <div className="bg-white rounded-full w-full md:w-[520px] h-[45px] flex items-center px-3">
+                <select className="pl-1 pr-2 text-sm">
                     <option value="category">All Categories</option>
                 </select>
-                <div className="flex items-center justify-center w-[100%] h-[100%]">
-                    <input type="text" id="site-search" name="q" placeholder="Search anything..." className="w-[350px] h-[100%] focus:outline-none"/>
-                    <button type="submit">
-                        <FontAwesomeIcon icon={faSearch} />
-                    </button>
-                </div>
+                <input type="text" placeholder="Search anything..." className="w-full h-full focus:outline-none text-sm"/>
+                <button type="submit" className="text-[#1ABA1A]">
+                    <FontAwesomeIcon icon={faSearch} />
+                </button>
             </div>
-            <span className="text-white text-center">FREE SHIPPING OVER $199</span>
-            <span className="text-white text-center">30 DAYS MONEY BACK</span>
-            <span className="text-white text-center">100% SECURE PAYMENT</span>
+            <span className="text-white text-center text-sm">FREE SHIPPING OVER $199</span>
+            <span className="text-white text-center text-sm">30 DAYS MONEY BACK</span>
+            <span className="text-white text-center text-sm">100% SECURE PAYMENT</span>
         </div>
     );
 }

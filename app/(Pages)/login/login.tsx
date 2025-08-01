@@ -22,9 +22,9 @@ export default function Login() {
                 </div>
                 <div className="flex flex-col mt-7">
                     <label htmlFor="password" className="text-[14px]">Password</label>
-                    <div className="mt-2 p-2 w-[80%] rounded-[6px] border border-[#CCCCCC]">
-                        <input type={visible ? "text" : "password"} placeholder="...." className="focus:outline-none w-[97%]"/>
-                        <button type="button" onClick={() => setVisible(!visible)} className="text-gray-400 hover:text-gray-600">
+                    <div className="mt-2 p-2 w-[80%] rounded-[6px] border border-[#CCCCCC] flex items-center">
+                        <input type={visible ? "text" : "password"} placeholder="...." className="focus:outline-none w-full flex-grow"/>
+                        <button type="button" onClick={() => setVisible(!visible)} className="text-gray-400 hover:text-gray-600 ml-2 shrink-0">
                             <FontAwesomeIcon icon={visible ? faEyeSlash : faEye} />
                         </button>
                     </div>

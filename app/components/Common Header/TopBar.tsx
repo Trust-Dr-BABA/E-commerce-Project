@@ -5,27 +5,29 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 
 export default function TopBar() {
     return(
-        <div className="flex justify-between text-[14px] mt-[10px] mx-[30px]">
-            <div className="space-x-2 flex justify-center">
-                <div className="pl-[10px] bg-[#EBEEF6] rounded-[6px] pr-1">
-                    <FontAwesomeIcon icon={faPhoneVolume} className="w-[12.2px] h-[12px] mr-[5px]" />
+        <div className="flex flex-wrap justify-between items-center text-[14px] mt-2 mx-4 gap-2">
+            <div className="gap-2 flex items-center">
+                <div className="flex items-center py-1 px-2 bg-[#EBEEF6] rounded-md">
+                    <FontAwesomeIcon icon={faPhoneVolume} className="w-[12px] h-[12px] mr-2 " />
                     <span>Hotline 24/7</span>
                 </div>
-                <span className="font-bold"> (025) 3888 25 16</span>
+                <span className="font-bold whitespace-nowrap"> (025) 3888 25 16</span>
             </div>
-            <div className="space-x-2 flex">
-                <Link href="/" >Sell on Swoo</Link>
-                <Link href="/" >Order Tracking</Link>
-                <select className="border-r border-[#999999]">
+
+            <div className="gap-3 flex items-center flex-wrap justify-end w-full sm:w-auto">
+                <Link href="/" className="whitespace-nowrap" >Sell on Swoo</Link>
+                <Link href="/" className="whitespace-nowrap" >Order Tracking</Link>
+                <select className="border-r border-[#999999] pr-2 bg-transparent outline-none">
                     <option value="usd">USD</option>
                 </select>
-                <div className="flex items-center">
+                <div className="flex items-center gap-1">
                     <Image src="/us-flag.png" alt="US Flag" width={15} height={15} className="h-[15px] w-auto" />
                     <select>
                         <option value="english">ENG</option>
                     </select>
                 </div>
             </div>
+
         </div>
     );
 }

@@ -46,8 +46,8 @@ export default function TopLinks() {
       <div className="space-y-6">
         <p className="text-[18px] font-bold">COMPANY</p>
         <div className="flex flex-col text-[14px] text-[#666666] space-y-1">
-          <Link href="/">About Swoo</Link>
-          <Link href="/">Contacts</Link>
+          <Link href="/about">About Swoo</Link>
+          <Link href="/contact">Contacts</Link>
           <Link href="/">Career</Link>
           <Link href="/">Blog</Link>
           <Link href="/">Sitemap</Link>
