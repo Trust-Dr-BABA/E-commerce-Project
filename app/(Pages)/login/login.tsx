@@ -10,19 +10,19 @@ export default function Login() {
 
     return (
         <div className="my-4 bg-white rounded-[10px] flex">
-            <div className="w-[50%] py-30 flex justify-center items-center">
+            <div className="hidden md:flex md:w-1/2 py-30 flex justify-center items-center">
                 <Image src="/login.png" alt="Login" width={400} height={330} />
             </div>
-            <div className="w-[50%] flex flex-col justify-center">
+            <div className="w-full md:w-1/2 flex flex-col justify-center p-8">
                 <h3 className="text-[28px] font-bold text-[#1ABA1A] pb-[10px]">Welcome Back</h3>
                 <p className="text-[14px] text-[#999999]">LOGIN TO CONTINUE</p>
                 <div className="flex flex-col mt-8">
                     <label htmlFor="email" className="text-[14px]">Email Address</label>
-                    <input type="email" placeholder="Example@gmail.com" className="mt-2 p-2 w-[80%] rounded-[6px] border border-[#CCCCCC] focus:outline-none"/>
+                    <input type="email" placeholder="Example@gmail.com" className="mt-2 p-2 md:w-[80%] rounded-[6px] border border-[#CCCCCC] focus:outline-none"/>
                 </div>
                 <div className="flex flex-col mt-7">
                     <label htmlFor="password" className="text-[14px]">Password</label>
-                    <div className="mt-2 p-2 w-[80%] rounded-[6px] border border-[#CCCCCC] flex items-center">
+                    <div className="mt-2 p-2 md:w-[80%] rounded-[6px] border border-[#CCCCCC] flex items-center">
                         <input type={visible ? "text" : "password"} placeholder="...." className="focus:outline-none w-full flex-grow"/>
                         <button type="button" onClick={() => setVisible(!visible)} className="text-gray-400 hover:text-gray-600 ml-2 shrink-0">
                             <FontAwesomeIcon icon={visible ? faEyeSlash : faEye} />

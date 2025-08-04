@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Counter from "./counter";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faHeart, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faStar, faHeart, faTrash, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function Cart() {
   return (
@@ -34,6 +34,11 @@ export default function Cart() {
                         <h6 className="text-[14px] font-bold">SROK Smart Phone 128GB, Oled Retina</h6>
                         <h3 className="text-[18px] text-[#F1352B] font-semibold">$579.00 </h3>
                         <Counter />
+                        <Link href="/" className="text-[#1ABA1A] text-[10px] p-3 rounded-[6px]">FREE SHIPPING</Link>
+                        <div className="py-2 gap-2 flex items-center">
+                            <FontAwesomeIcon icon={faCheck} className="bg-green-500 text-white w-[16px] h-[16px] p-[2px] rounded-full" />
+                            <span className="text-[12px]">In stock</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,6 +67,11 @@ export default function Cart() {
                         <h6 className="text-[14px] font-bold">aPod Pro Tablet 2023 LTE + Wifi, GPS Cellular 12.9 Inch, 512GB</h6>
                         <h3 className="text-[18px] font-semibold my-[10px]">$979.00</h3>
                         <Counter />
+                        <p className="text-[10px] p-3">$2.98 SHIPPING</p>
+                        <div className="py-2 gap-2 flex items-center">
+                            <FontAwesomeIcon icon={faCheck} className="bg-green-500 text-white w-[16px] h-[16px] p-[2px] rounded-full" />
+                            <span className="text-[12px]">In stock</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,6 +100,14 @@ export default function Cart() {
                         <h4 className="text-[14px] font-bold">Samsung Galaxy X6 Ultra LTE 4G/128 Gb, Black Smartphone</h4>
                         <h3 className="text-[18px] font-semibold my-[10px]">$659.00</h3>
                         <Counter />
+                        <div className="p-2">
+                            <Link href="/" className="text-[#1ABA1A] text-[10px] p-3 rounded-[6px]">FREE SHIPPING</Link>
+                            <Link href="/" className="text-[#F1352B] text-[10px] p-3 rounded-[6px]">FREE GIFT</Link>
+                        </div>
+                        <div className="py-2 gap-2 flex items-center">
+                            <FontAwesomeIcon icon={faCheck} className="bg-green-500 text-white w-[16px] h-[16px] p-[2px] rounded-full" />
+                            <span className="text-[12px]">In stock</span>
+                        </div>
                     </div>
                 </div>
             </div>                    

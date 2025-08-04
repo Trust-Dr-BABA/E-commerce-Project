@@ -1,5 +1,7 @@
 import Header from "../../components/Common Header/Header";
 import URL from "../../components/URL";
+import Body from "./about";
+import Membership from "@/app/components/Homes/LandingPage/MembershipAd";
 import Footer from "../../components/Common Footer/Footer";
 
 export default function About() {
@@ -7,6 +9,8 @@ export default function About() {
     <div>
       <Header />
       <URL />
+      <Body />
+      <Membership />
       <Footer />
     </div>
   );
