@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import HeartButton from "../../HeartReact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faStar, faHeart, faCheck, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faStar, faCheck, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 export default function BestSeller() {
   return (
@@ -21,9 +22,7 @@ export default function BestSeller() {
         <div className="grid grid-cols-5 gap-4">
 
           <div className="relative">
-            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-            </div>
+            <HeartButton hb={30} wb={30} hi={14} wi={14} />
             <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-headphones1.png" alt="Best Seller Headphones" width={190} height={200}/></Link>
             <div className="pl-8">
               <div className="flex text-yellow-400 gap-1 pb-2">
@@ -52,9 +51,7 @@ export default function BestSeller() {
               <p className="text-[10px]">SAVE</p>
               <h6 className="text-[14px] font-medium">$199.00</h6>
             </div>
-            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-            <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-            </div>
+            <HeartButton hb={30} wb={30} hi={14} wi={14} />
             <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-tablet.png" alt="Best Seller Tablet" width={190} height={200}/></Link>
             <div className="pl-8">
               <div className="flex text-yellow-400 gap-1 pb-2">
@@ -82,9 +79,7 @@ export default function BestSeller() {
               <p className="text-[10px]">SAVE</p>
               <h6 className="text-[14px] font-medium">$59.00</h6>
             </div>
-            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-            </div>
+            <HeartButton hb={30} wb={30} hi={14} wi={14} />
             <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-case.png" alt="Best Seller Mini case" width={190} height={200}/></Link>
             <div className="pl-8">
               <div className="flex text-yellow-400 gap-1 pb-2">
@@ -107,9 +102,7 @@ export default function BestSeller() {
           </div>
 
           <div className="relative">
-            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-            </div>
+            <HeartButton hb={30} wb={30} hi={14} wi={14} />
             <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-watch.png" alt="Best Seller Watch" width={190} height={200}/></Link>
             <div className="pl-8">
               <div className="flex text-yellow-400 gap-1 pb-2">
@@ -130,9 +123,7 @@ export default function BestSeller() {
               <p className="text-[10px]">SAVE</p>
               <h6 className="text-[14px] font-medium">$3.00</h6>
             </div>
-            <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-              <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-            </div>
+            <HeartButton hb={30} wb={30} hi={14} wi={14} />
             <Link href="/" className="flex justify-center items-center"><Image src="/bestseller-charger.png" alt="Best Seller Charger" width={190} height={200}/></Link>
             <div className="pl-8">
               <div className="flex text-yellow-400 gap-1 pb-2">

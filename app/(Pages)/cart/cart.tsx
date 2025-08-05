@@ -89,7 +89,7 @@ export default function Cart() {
                     </div>
                 </div>
                 <div className="flex pt-4 gap-4">
-                    <Link href="/"><Image src="/phoneslider3.png" alt="Best Seller Headphones" width={220} height={250}/></Link>
+                    <Link href="/topcellphones/samsung"><Image src="/phoneslider3.png" alt="Best Seller Headphones" width={220} height={250}/></Link>
                     <div className="flex flex-col justify-center w-[80%]">
                         <div className="flex text-yellow-400 gap-1 pb-2">
                             {[...Array(5)].map((_, i) => (

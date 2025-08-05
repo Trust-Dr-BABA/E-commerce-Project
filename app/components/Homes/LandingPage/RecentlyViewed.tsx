@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import HeartButton from "../../HeartReact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faStar, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faStar } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function TopCellphones() {
@@ -28,9 +29,7 @@ export default function TopCellphones() {
                         <div className="absolute top-3 left-3 bg-black text-white rounded-[10px] p-2 z-10">
                             <p className="text-[10px]">NEW</p>
                         </div>
-                        <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-                            <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-                        </div>
+                        <HeartButton hb={30} wb={30} hi={14} wi={14} />
                         <div className="flex pt-4">
                             <Link href="/"><Image src="/recentlyview1.png" alt="Best Seller Headphones" width={120} height={90}/></Link>
                                 <div>
@@ -50,9 +49,7 @@ export default function TopCellphones() {
                         <div className="absolute top-3 left-3 bg-black text-white rounded-[10px] p-2 z-10">
                             <p className="text-[10px]">NEW</p>
                         </div>
-                        <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-                            <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-                        </div>
+                        <HeartButton hb={30} wb={30} hi={14} wi={14} />
                         <div className="flex pt-4">
                             <Link href="/"><Image src="/recentlyview2.png" alt="Best Seller Tablet" width={120} height={90}/></Link>
                             <div>
@@ -69,9 +66,7 @@ export default function TopCellphones() {
                     </div>
                     
                     <div className="relative">
-                        <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-                                <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-                        </div>
+                        <HeartButton hb={30} wb={30} hi={14} wi={14} />
                         <div className="flex pt-4">
                             <Link href="/"><Image src="/recentlyview3.png" alt="Best Seller Mini case" width={120} height={90}/></Link>
                             <div>
@@ -92,9 +87,7 @@ export default function TopCellphones() {
                             <p className="text-[10px]">SAVE</p>
                             <h6 className="text-[14px] font-medium">$192.00</h6>
                         </div>
-                        <div className="absolute top-3 right-3 z-10 bg-[#E2E4EB] rounded-full w-[30px] h-[30px] flex justify-center items-center">
-                                <FontAwesomeIcon icon={faHeart} className="w-[14.2px] h-[14px]"/>
-                        </div>
+                        <HeartButton hb={30} wb={30} hi={14} wi={14} />
                         <div className="flex pt-4">
                             <Link href="/"><Image src="/recentlyview4.png" alt="Best Seller Watch" width={120} height={90}/></Link>
                             <div>
