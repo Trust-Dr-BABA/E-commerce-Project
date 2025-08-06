@@ -6,7 +6,7 @@ import { faTwitter, faFacebookF, faInstagram, faYoutube, faPinterestP } from '@f
 export default function Contact() {
     return (
         <div>
-            <div className="mt-4 rounded-[10px] bg-white">
+            <div className="rounded-[10px] bg-white">
                 <h6 className="font-bold text-[18px] pl-8 pt-8 pb-4">READY TO WORK WITH US</h6>
                 <div className="flex p-8 gap-8">
                     <div className="w-[60%]">
@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
             </div>
 
-            <div className="my-4 rounded-[10px] bg-white">
+            <div className="mt-4 rounded-[10px] bg-white">
                 <h6 className="font-bold text-[18px] pl-8 pt-8">FIND US ON GOOGLE MAP</h6>
                 <div className="w-full p-8 h-[400px]">
                     <iframe src="https://maps.google.com/maps?q=152+Thatcher+Road,Manhattan,New+York,10463,US&z=15&output=embed"

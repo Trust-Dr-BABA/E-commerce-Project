@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Counter from "./counter";
+import Counter from "@/app/components/counter";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faHeart, faTrash, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function Cart() {
   return (
-    <div className="bg-white rounded-[10px] p-12 my-4 gap-6 flex">
+    <div className="bg-white rounded-[10px] p-12 gap-6 flex">
         <div className="w-[70%] space-y-4">
 
             <div className="relative p-4">

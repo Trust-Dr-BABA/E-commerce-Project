@@ -5,7 +5,7 @@ import { faFire, faLaptop, faChevronRight, faServer, faMobileAlt, faTabletAlt, f
 
 export default function HomeHeader() {
   return (
-    <div className="w-full pt-4">
+    <div className="w-full">
       <div className="grid grid-cols-4 gap-4 h-full">
         <div className="col-span-1 h-full flex flex-col justify-between px-[30px] py-[25px] bg-white rounded-[10px]">
           <p className="text-[#F1352B] font-bold text-[14px]"><FontAwesomeIcon icon={faFire} className="w-[16.2px] h-[16px]"/> SALE 40% OFF</p>

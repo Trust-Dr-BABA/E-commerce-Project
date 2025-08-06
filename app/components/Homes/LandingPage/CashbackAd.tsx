@@ -2,7 +2,7 @@
 
 export default function CashBack() {
     return (
-        <div className="grid grid-cols-2 gap-4 my-4">
+        <div className="grid grid-cols-2 gap-4">
             <div className="col-span-1 bg-[url('/cashback1.png')] bg-cover bg-center h-full w-full rounded-[10px]">
                 <div className="py-10 pl-[70%]">
                     <p className="text-[40px] font-bold text-[#FFE400]">10% Back</p>

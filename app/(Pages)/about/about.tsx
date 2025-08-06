@@ -32,7 +32,7 @@ export default function About() {
 
   return (
     <div>
-        <div className="bg-white p-8 rounded-[10px] mt-4">
+        <div className="bg-white p-8 rounded-[10px]">
             <div className="bg-[url('/aboutbanner1.png')] bg-cover bg-center w-full rounded-[10px] py-20 px-30">
                 <h1 className="text-[45px] font-bold pb-7 w-[23%]">Best experience <span className="font-normal">always wins</span></h1>
                 <p className="text-[14px] text-[#666666] w-[20%]">#1 Online Marketplace for Electronic & Technology in Mahanttan, CA</p>

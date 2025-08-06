@@ -5,7 +5,7 @@ import Footer from "../../components/Common Footer/Footer";
 
 export default function Register() {
   return (
-    <div>
+    <div className="space-y-4">
       <Header />
       <URL />
       <SignUp />

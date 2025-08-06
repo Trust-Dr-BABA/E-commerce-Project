@@ -5,7 +5,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function FeaturedTop() {
     return (
-        <div className="grid grid-cols-2 gap-4 pt-4">
+        <div className="grid grid-cols-2 gap-4">
             <div className="col-span-1 bg-white rounded-[10px] px-[30px] py-[30px]">
                 <div className="flex justify-between">
                     <h6 className="font-bold text-[18px]">FEATURED BRANDS</h6>

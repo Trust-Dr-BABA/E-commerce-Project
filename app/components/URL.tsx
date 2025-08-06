@@ -11,7 +11,7 @@ export default function URL() {
     const lastIndex = segments.length - 1;
 
     return (
-        <p className="text-lg p-8 bg-white mt-4 rounded-[10px]">
+        <p className="text-lg p-8 bg-white rounded-[10px]">
             <span className="text-gray-500">home</span>
             {segments.map((seg, i) => (
                 <span key={i}>

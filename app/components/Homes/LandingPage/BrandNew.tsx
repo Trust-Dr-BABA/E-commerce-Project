@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function BrandNew() {
   return (
-    <div className="bg-white rounded-[10px] mt-4">
+    <div className="bg-white rounded-[10px]">
         <div className="p-8">
             <div className="flex justify-between items-center">
                 <h6 className="text-[18px] font-bold">BRAND NEW FOR YOU</h6>

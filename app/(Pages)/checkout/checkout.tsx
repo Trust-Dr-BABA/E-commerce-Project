@@ -5,7 +5,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 export default function Checkout() {
     return (
-        <div className="my-4 bg-white p-12 rounded-[10px]">
+        <div className="bg-white p-12 rounded-[10px]">
             <h6 className="text-[18px] font-bold">CHECKOUT</h6>
             <div className="flex gap-6 mt-6">
                 <div className="w-[70%]">

@@ -60,7 +60,7 @@ export default function Profile() {
     };
 
     return (
-        <div className="my-4 bg-white p-8 rounded-[10px] flex gap-6">
+        <div className="bg-white p-8 rounded-[10px] flex gap-6">
             <div className="flex flex-col p-6 w-[30%]">
                 <Image src="/avatar.jpg" alt="avatar" width={215} height={220} className="rounded-[10px]"/>
                 <h5 className="text-[20px] font-bold mt-4">Mark Cole</h5>

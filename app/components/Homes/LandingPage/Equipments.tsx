@@ -5,7 +5,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function Equipments() {
     return (
-        <div className="grid grid-cols-3 gap-4 pt-4">
+        <div className="grid grid-cols-3 gap-4">
 
             <div className="bg-white rounded-[10px] p-8">
                 <div className="flex justify-between items-center">

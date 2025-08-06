@@ -15,7 +15,7 @@ import About from "./AboutSwoo";
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col space-y-4">
       <Header />
       <HomeHeader />
       <FeaturedTop />

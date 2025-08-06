@@ -9,7 +9,7 @@ export default function Deals() {
     const [currentPic, setCurrentPic] = useState("/dealad1.png");
 
     return (
-        <div className="flex pt-4 gap-4">
+        <div className="flex gap-4">
             <div className="w-[75%]">
                 <div className="text-white bg-[#1ABA1A] flex justify-between items-center p-5 rounded-[10px]">
                     <h6 className="font-bold text-[18px]">DEALS OF THE DAY</h6>

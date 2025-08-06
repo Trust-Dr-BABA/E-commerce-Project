@@ -7,7 +7,7 @@ import { faChevronRight, faStar, faCheck } from '@fortawesome/free-solid-svg-ico
 
 export default function TopLaptops() {
     return (
-        <div className="bg-white rounded-[10px] mt-4">
+        <div className="bg-white rounded-[10px]">
             <div className="p-8">
 
                 <div className="flex justify-between items-center">

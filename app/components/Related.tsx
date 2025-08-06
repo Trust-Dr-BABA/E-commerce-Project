@@ -7,7 +7,7 @@ import { faStar, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function TopCell() {
     return (
-        <div className="p-8 bg-white rounded-[10px] mt-4">
+        <div className="p-8 bg-white rounded-[10px]">
             <h6 className="text-[18px] font-bold">RELATED PRODUCTS</h6>
             <div className="flex items-center pt-8">
                 <button className="text-black bg-[#EDEFF6] rounded-[6px] w-[40px] h-[80px]">◀</button>

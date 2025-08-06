@@ -9,7 +9,7 @@ export default function Login() {
     const [visible, setVisible] = useState(false);
 
     return (
-        <div className="my-4 bg-white rounded-[10px] flex">
+        <div className="bg-white rounded-[10px] flex">
             <div className="hidden md:flex md:w-1/2 py-30 flex justify-center items-center">
                 <Image src="/login.png" alt="Login" width={400} height={330} />
             </div>
