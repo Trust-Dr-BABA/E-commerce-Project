@@ -12,7 +12,7 @@ export default function TopCellphones() {
 
                 <div className="flex justify-between items-center">
                     <h6 className="text-[18px] font-bold">TOP CELLPHONES & TABLETS</h6>
-                    <Link href="/" className="text-[13px] text-[#666666]">View All 
+                    <Link href="/topcellphones" className="text-[13px] text-[#666666]">View All 
                         <FontAwesomeIcon icon={faChevronRight} className="w-[13.2px] h-[13px]"/>
                     </Link>
                 </div>

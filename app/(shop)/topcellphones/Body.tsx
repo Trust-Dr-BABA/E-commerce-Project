@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import HeartButton from "@/app/components/HeartReact";
+import Category from "./Category";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -263,9 +264,7 @@ export default function Body() {
           </button>
         </div>
         <div>
-            <div className="grid grid-cols-4 ">
-                
-            </div>
+          <Category />
         </div>
       </div>
     </div>
