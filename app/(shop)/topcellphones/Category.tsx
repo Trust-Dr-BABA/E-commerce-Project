@@ -18,7 +18,7 @@ export default function CategoryPage() {
   const productArray = [
     {
       id: 1,
-      image: "",
+      image: "/bestseller-watch.png",
       title: "Opplo Watch Series 8",
       reviews: 12,
       price: "979.00",
@@ -30,7 +30,7 @@ export default function CategoryPage() {
     },
     {
       id: 2,
-      image: "",
+      image: "/macbook1.jpg",
       title: "GigaBook Pro 15",
       reviews: 25,
       price: "1520.00",

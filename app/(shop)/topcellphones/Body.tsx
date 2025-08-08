@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import HeartButton from "@/app/components/HeartReact";
+import Filter from "./Filter";
 import Category from "./Category";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -65,7 +66,9 @@ export default function Body() {
             </li>
           </ul>
         </div>
-        <div className="bg-[#EEEFF6] rounded-[10px] p-8"></div>
+        <div className="bg-[#EEEFF6] rounded-[10px] p-8">
+          <Filter />
+        </div>
         <div className="bg-[url('/homeheader-right-bottom.png')] bg-cover bg-center w-full rounded-[10px]">
           <div className="pl-[40px] py-[20px]">
             <h6 className="text-[23px] text-white w-[110px] mb-[25px]">
